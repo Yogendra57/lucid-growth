@@ -1,0 +1,61 @@
+.home-bg {
+  background: linear-gradient(135deg, #f8f9fa, #e0c3fc, #8ec5fc);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Flip Card */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  max-width: 450px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  z-index: 2;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Button animation */
+.btn-animate {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-animate:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Purple button for dashboard */
+.btn-purple {
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  color: white;
+  border: none;
+}
+
+.btn-purple:hover {
+  background: linear-gradient(90deg, #f107a3, #7b2ff7);
+  color: white;
+}
