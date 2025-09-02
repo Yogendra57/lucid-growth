@@ -15,7 +15,7 @@ export default function Home() {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://lucid-growth-backend-urq3.onrender.com/api/sessions/create",
+        "https://lucid-growth-backend2.onrender.com/api/sessions/create",
         { testAddress: email }
       );
       setSession(data);
@@ -32,7 +32,7 @@ export default function Home() {
     setLoading(true);
     try {
       const { data } = await axios.get(
-        `http://localhost:8000/api/sessions/fetch/${session._id}`
+        `https://lucid-growth-backend2.onrender.com/api/sessions/fetch/${session._id}`
       );
       setSession(data); // update session state
       return data;
