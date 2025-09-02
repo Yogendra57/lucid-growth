@@ -15,7 +15,7 @@ export default function Dashboard() {
     const fetchSession = async () => {
       try {
         const { data } = await axios.get(
-          `https://lucid-growth-backend-urq3.onrender.com/api/sessions/fetch/${id}`
+          `https://lucid-growth-backend2.onrender.com/api/sessions/fetch/${id}`
         );
         setSessionData(data);
         setLoading(false);
