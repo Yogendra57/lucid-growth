@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://lucid-growth-backend-urq3.onrender.com/api" });
+const API = axios.create({ baseURL: "https://lucid-growth-backend2.onrender.com/api" });
 
 // Create new session
 export const createSession = () => API.post("/sessions/create");
