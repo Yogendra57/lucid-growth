@@ -4,7 +4,7 @@ import "../stylesheets/LandingPage.css"; // Custom CSS for animations
 
 export default function LandingPage() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("choturao57@gmail.com");
 
   const handleStart = () => {
     if (!email) return alert("Please enter your email!");
@@ -21,8 +21,8 @@ export default function LandingPage() {
           type="email"
           className="form-control mb-3 text-center"
           placeholder="Your Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          value={'choturao57@gmail.com'}
+          readOnly
         />
         <button className="btn btn-primary btn-gradient animate-pulse" onClick={handleStart}>
           Start Email Test
