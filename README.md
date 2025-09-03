@@ -35,8 +35,8 @@ Create a `.env` file in  **backend**
 ## 🛠️ Setup Instructions
 
 ### Clone the repo
-git clone https://github.com/Yogendra57/lucid-growth.git
-cd lucid-growth
+-git clone https://github.com/Yogendra57/lucid-growth.git
+-cd lucid-growth
 
 ## Setup Backend
 - cd lucid-growth-backend
