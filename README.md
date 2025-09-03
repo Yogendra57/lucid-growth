@@ -12,7 +12,7 @@ The frontend is built with React, and the backend is a Node.js (Express) API.
 - **Frontend:** React, JavaScript, CSS  
 - **Backend:** Node.js, Express  
 - **Database:** (add here if you use MongoDB/MySQL/Postgres)  
-- **Deployment:** Render (Backend), Netlify/Vercel (Frontend optional)  
+- **Deployment:** Render (Frontend & Backend)
 
 ---
 
