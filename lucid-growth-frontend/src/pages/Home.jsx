@@ -108,7 +108,7 @@ export default function Home() {
             ) : (
               <button
                 onClick={goToDashboard}
-                className="bg-purple-600 text-white px-6 py-2 mt-4 rounded-full shadow-lg hover:scale-105 transform transition"
+                className="bg-purple-600  px-6 py-2 mt-4 rounded-full shadow-lg hover:scale-105 transform transition"
               >
                 Go to Dashboard
               </button>
