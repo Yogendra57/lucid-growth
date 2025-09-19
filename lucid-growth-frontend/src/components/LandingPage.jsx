@@ -15,7 +15,7 @@ export default function LandingPage() {
     <div className="landing-page d-flex justify-content-center align-items-center">
       <div className="overlay"></div>
       <div className="content-box text-center p-4">
-        <h1 className="mb-3 animate-bounce">📧 LucidGrowth Email Analyzer</h1>
+        <h1 className="mb-3 animate-bounce">📧 Email Analyzer</h1>
         <p className="mb-4">Enter your email to start testing email headers and ESP detection</p>
         <input
           type="email"
